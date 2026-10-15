@@ -8,11 +8,10 @@ const STRINGS = {
         newsletterSignup: 'Thank you for signing up! You would receive a confirmation email in a real implementation.'
     },
     'es-US': {
-        newsletterSignup: 'Thank you for signing up! You would receive a confirmation email in a real implementation.'
+        newsletterSignup: '¡Gracias por registrarte! En una implementación real, recibirías un correo electrónico de confirmación.
         // TODO (students): replace the English above with your Spanish translation.
     }
 };
-
 // Detect the page language from the <html lang> attribute.
 // Falls back to English if the locale is not found.
 const pageLang = document.documentElement.lang || 'en-US';
